@@ -83,6 +83,16 @@
   padding: 30px;
 }
 
+.tab-pane:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+body {
+  overflow-y: scroll;
+}
+
 .fa {
   color: #ddd;
   font-size: 60px;
