@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.list-group {
+  width: 25%;
+  float: left;
+}
+
+.row {
+  margin: 0px;
+}
+
+.App-Wrapper {
+  padding-top: 100px;
+}
+
+.App-Wrapper .list-group {
+  padding-left: 5%;
+}
+
+.App-Wrapper h2 {
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.tab-content {
+  padding: 30px 0px 0px 15px;
+}
+
+.submission-container {
+  border: 1px solid #ddd;
+  min-height: 200px;
+}
+
+.submission-container img {
+  padding: 30px;
+  float: left;
+  border-radius: 50%;
+}
+
+.submission-container h4 {
+  padding-top: 30px;
+}
+
+.assignment-header {
+  display: block;
+  min-height: 40px;
+}
+
+.assignment-header h4 {
+  float: left;
+}
+
+.assignment-header span {
+  float: right;
+}
+
+.content-box {
+  padding: 30px;
+}
+
+.fa {
+  color: #ddd;
+  font-size: 60px;
+  height: 40px;
+  position: absolute;
+  top: -120px;
+  left: 85%;
+}
+
+.fa-sort-down {
+  line-height: 20px;
+}
+
+.description-box {
+  position: relative;
+  margin-top: 120px;
+  border-top: 1px solid rgb(221, 221, 221);
+}
