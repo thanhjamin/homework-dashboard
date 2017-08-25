@@ -1,0 +1,8 @@
+.list-group {
+  width: 25%;
+  float: left;
+}
+
+.App-Wrapper .list-group {
+  padding-left: 5%;
+}

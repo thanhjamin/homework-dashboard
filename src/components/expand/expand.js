@@ -1,7 +1,8 @@
 import React from 'react';
-import { Collapse, Button } from 'reactstrap';
+import { Collapse } from 'reactstrap';
+import './expand.css';
 
-export default class CollapseBtn extends React.Component {
+export default class Expand extends React.Component {
   constructor(props) {
     super(props);
 

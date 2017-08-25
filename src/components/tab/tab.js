@@ -1,7 +1,8 @@
 import React from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col, Collapse, Button } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
-import CollapseBtn from './collapseBtn.js'
+import Expand from '../expand/expand.js'
+import './tab.css';
 
 export default class Tab extends React.Component {
   constructor(props) {
@@ -35,7 +36,6 @@ export default class Tab extends React.Component {
   }
 
   render() {
-    console.log(this.state)
     let item = this.props.assignmentsData;
     let assignmentTabContent = '';
     let submissionTabContent = '';
@@ -66,7 +66,7 @@ export default class Tab extends React.Component {
             <div>
               <h4>{fullName}</h4>
               <p>turned in {submittedAt}</p>
-              <CollapseBtn content={content} />
+              <Expand content={content} />
             </div>
           </div>
         )

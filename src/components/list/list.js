@@ -1,7 +1,8 @@
 import React from 'react';
 import { ListGroup } from 'reactstrap';
-import Tab from './tab.js';
-import ListItem from './listItem.js'
+import Tab from '../tab/tab.js';
+import ListItem from '../listItem/listItem.js'
+import './list.css';
 
 export default class Sidebar extends React.Component {
   constructor(props) {
@@ -21,8 +22,6 @@ export default class Sidebar extends React.Component {
     let self = this;
     let assignmentsData = this.props.assignmentsData;
     let submissionsData = this.props.submissionsData;
-    console.log(assignmentsData)
-    console.log(submissionsData)
     let assignmentListItem = assignmentsData.map((item, id) => {
       let isSelected = this.state.selectedItem === id
       return ( 

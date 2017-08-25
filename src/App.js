@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import List from './components/list.js';
+import List from './components/list/list.js';
 import axios from 'axios';
 
 class App extends Component {
@@ -18,7 +18,6 @@ class App extends Component {
     const url = 'https://api.edmodo.com/assignments?access_token=12e7eaf1625004b7341b6d681fa3a7c1c551b5300cf7f7f3a02010e99c84695d'
     axios.get(url)
       .then(function (response) {
-        console.log(response)
         self.setState({ appData: response.data })
         self.fetchSubmissionData()
       })

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ListGroupItem } from 'reactstrap';
+import './listItem.css';
 
 export default class ListItem extends React.Component {
   constructor(props) {
